@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mask Type Identification</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <h3 class="btn btn-danger heading">Mask Type Indentification</h3>
+        <hr>
+    <center>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+        Model is trained on mask Identification
+        <br>
+        <div class="btn btn-success heading_div2">
+            Proper Mask | Improper Mask | No Mask
+       
+        </div>
+    </div>
+    </center>
+    <br><br>
+    <p class = "btn btn-danger result_para_tag">Object :
+        <span id="result_object_name"></span>
+    </p>
+    <br><br>
+    <p class="btn btn-danger result_para_tag">Accuracy:
+        <span id="result_object_accuracy"></span>
+    </p>
+    </center>
+    <div class="copy_right_footer">
+    App Creation Date 2-19-23
+</div>
+</body>
+</html>
